@@ -1,0 +1,336 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+body{
+    background-color: rgb(240, 243, 244);
+}
+
+.header{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+    height: 67px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.searchBar{
+    height: 42px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 245, 255);
+    padding-left: 15px;
+}
+
+.searchBar input{
+    font-size: 17px;
+    background-color: rgb(240, 245, 255);
+    border: none;
+    width: 46vw;
+}
+
+.searchBar input:focus{
+    outline: none;
+}
+
+.user{
+    width:90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userLogin{
+    text-decoration: none;
+}
+.userLogin:visited{
+    color: black;
+}
+
+.cart{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartLink{
+    color: black;
+    text-decoration: none;
+}
+
+.cartLink:active{
+    color: black;
+    text-decoration: none;
+}
+
+.seller{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topNav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin: 10px 15px 0px 15px;
+}
+
+.topNavItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner{
+    margin: 20px 15px 0px 15px;
+}
+
+.banner img{
+    width: 97vw;
+}
+
+.outerDiv{
+    display: flex;
+}
+
+.bestOfElectronics{
+    padding-left: 15px;
+    margin: 20px 15px 0px 0px;
+    width: 80vw;
+    overflow-x: hidden;
+}
+
+.bestOfElectronicsHeader{
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px 0px 30px 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bestOfElectronicsBody{
+    display: flex;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.bestOfElectronicsItem{
+    padding: 0px 15px 0px 15px;
+    border: 1px solid rgb(224, 225, 225);
+    border-radius: 5px;
+    display: flex;
+    margin-right: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boeImage{
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.boeNormal, .smphNormal{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.boeBig, .smphBig{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sideSale{
+    margin-top: 15px;
+}
+
+.sale{
+    padding: 20px 15px 20px 15px;
+}
+
+.rowImage{
+	width:33%;
+}
+
+.rowImage img{
+	width:100%;
+}
+
+.row1, .row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2{
+    margin-top: 10px;
+}
+
+.featuredBrands{
+    background-color: white;
+    margin: 20px 15px 20px 15px;
+    overflow-x: hidden;
+}
+
+.featuredBrandsHeader{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px 0px 30px 15px;
+}
+
+.featuredBrandsBody{
+    display: flex;
+}
+
+.featuredBrandsItem{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.outer{
+    display: flex;
+}
+
+.bestGHeader{
+    font-weight: bold;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bestGadgets{
+    padding-left: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+    background-color: white;
+    width: 460px;
+}
+
+.outline{
+    border: 1px solid rgb(224, 225, 225);
+    margin-top: 30px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.bestGImg{
+    padding: 10px 20px 20px 20px;
+}
+
+.advImage{
+	width:61%;
+}
+
+.advImage img{
+	width:100%;
+}
+
+.green{
+    color: rgb(16, 136, 53);
+}
+
+.footer{
+    padding-top: 40px;
+    font-size: 13px;
+    color: rgb(255, 254, 254);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(32, 33, 32);
+    height: 230px;
+    border-bottom: 1px solid rgb(69, 77, 94);
+}
+
+.footerHeader{
+    color: rgb(135, 134, 134);
+    margin-bottom: 12px;
+}
+
+.footerHeader2{
+    color: rgb(135, 134, 134);
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+.footer ul{
+    list-style-type:none;
+    color: rgb(255, 254, 254);
+}
+
+.footer li{
+    margin-top: 5px;
+}
+
+
+.footerGroup a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}
+
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footerGroup2{
+    padding-left: 30px;
+    border-left: 1px solid rgb(69, 77, 94);
+    height: 200px;
+}
+
+.footerGroup3 a{
+    color: rgb(41, 117, 240);
+    text-decoration: none;
+}
+
+.footerSocials{
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 70px;
+    display: flex;
+
+}
+
+.blue{
+    color: rgb(41, 117, 240);
+}
+
+.footer2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(32, 33, 32);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 13px;
+}
+
+.footer2Group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer2Group img{
+    margin-right: 10px;
+}
