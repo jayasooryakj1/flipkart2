@@ -1,0 +1,330 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+body{
+    height:100vh;
+    background-color: rgb(241, 243, 246);
+}
+
+.header{
+	display:flex;
+	align-items:center;
+	background-color:rgb(40, 116, 240);
+	position:sticky;
+	top:0px;
+}
+
+.headerLogo{
+	margin-left:13vw;
+}
+
+.searchBar{
+	display:flex;
+	align-items:center;
+	height:40px;
+	padding-left:20px;
+	margin-left:20px;
+	background-color:rgb(255, 255, 255);
+	font-size:14px;
+}
+
+.searchBar input{
+	width:30vw;
+	border:none;
+}
+
+.searchBar img{
+	margin-right: 10px;
+}
+
+.searchBar input:focus{
+	outline:none;
+}
+
+.login{
+	color:rgb(40, 116, 240);
+	background-color:white;
+	font-weight:bold;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-left:20px;
+	width:120px;
+	height:30px;
+}
+
+.seller{
+	width:130px;
+	color:white;
+	font-weight:bold;
+	margin-left:2vw;
+}
+
+.more{
+	margin-left:2vw;
+	display:flex;
+	width:55px;
+	justify-content:space-between;
+	color:white;
+	font-weight:bold;
+}
+
+.cart{
+	margin-left:2vw;
+	display:flex;
+	width:50px;
+	justify-content:space-between;
+	color:white;
+	font-weight:bold;
+}
+
+.topNav{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	justify-content:space-evenly;
+	font-size:13px;
+	background-color:white;
+	height:40px;
+	border-bottom:1px solid rgb(221, 221, 221);
+}
+
+.topNavItem img{
+	margin-left:5px;
+}
+
+.tabletHeader{
+	display:none;
+}
+
+.mainDiv{
+	display:flex;
+	width:100%;
+	background-color:white;
+}
+
+.blueBorder{
+	border:1px solid rgb(40, 116, 240);
+}
+
+.images{
+	display:flex;
+	backgrond-color:white;
+	margin-left:50px;
+}
+
+.mainImg{
+	background-color:white;
+	height:100%;
+}
+
+.addCart{
+	background-color:rgb(255, 159, 0);
+	color:white;
+	justify-content: center;
+	align-items:center;
+	width:205px;
+	height:50px;
+	font-weight:bold;
+}
+
+.buyNow{
+	background-color:rgb(251, 100, 27);
+	color:white;
+	width:205px;
+	height:50px;
+	justify-content: center;
+	align-items:center;
+	font-weight:bold;
+}
+
+.share{
+	display:flex;
+	color:rgb(194, 194, 194);
+	font-size:11px;
+}
+
+.share img{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.itemHeading{
+	font-size:20px;
+}
+
+.mainText{
+	background-color:white;
+}
+
+.green{
+	background-color:rgb(56, 142, 60);
+	border-radius:2px;
+	width:30px;
+	height:20px;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.grey{
+	color:rgb(135, 135, 135);
+}
+
+.greenText{
+	color:rgb(56, 142, 66);
+	font-size:13px;
+}
+
+.priceBig{
+	font-size:25px;
+	font-weight:bold;
+}
+
+.coupon{
+	font-size:14px;
+}
+
+.tac{
+	text-decoration:none;
+	color:rgb(40, 116, 241);
+}
+
+.sp{
+	font-weight:bold;
+}
+
+.textItemLeft{
+	color:rgb(135, 135, 135);
+	font-size:14px;
+}
+
+.textItemRight{
+	font-size:14px;
+}
+
+.textItemRightBlue{
+	border-bottom:2px solid rgb(40, 116, 240);
+	font-size:14px;
+}
+
+.textItemRight li{
+	margin-top:10px;
+}
+
+.sellerBlue{
+	padding-left:1px;
+	padding-right:1px;
+	background-color:rgb(40, 116, 240);
+	color:white;
+	border-radius:5px;
+}
+
+.protectHeader{
+	font-size:18px;
+	font-weight:bold;
+	border-bottom:1px solid rgb(240, 240, 240);
+}
+
+.bajajHeader{
+	font-weight:bold;
+}
+
+.bajaDigital{
+	color:rgb(143, 144, 143);
+}
+
+.twenty{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.strike{
+	color:rgb(143, 144, 143);
+	font-size:15px;
+}
+
+.bajaj{
+	border-bottom:1px solid rgb(240, 240, 240);
+}
+
+.green50{
+	color:rgb(56, 142, 60);
+	font-size:15px;
+	font-weight:bold;
+}
+
+.colorGrey{
+	color:rgb(135, 135, 135);
+}
+
+.cartTwo{
+	align-items:center;
+	justify-content:center;
+	background-color:rgb(255, 159, 0);
+	color:white;
+	height:40px;
+	width:300px;
+}
+
+.spec{
+	padding:20px;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.generalSpec{
+	font-size:18px;
+}
+
+.specLeft{
+	color:rgb(135, 141, 151);
+}
+
+
+
+
+@media screen and (max-width:768px){
+	.header{
+		display:none;
+	}
+	
+	.topNav{
+		display:none;
+	}
+	
+	.tabletHeader{
+		background-color:white;
+		width:100%;
+		display:flex;
+		align-items:center;
+	}
+
+	.mainDiv{
+		display:block;
+		margin-left:0px;
+	}
+	
+	.images{
+		margin-left:0px;
+	}
+
+	.sideImg{
+		display:none;
+	}
+	
+	.mainImg{
+		width:100%;
+		background-color:white;
+	}
+	
+	.mainImg img{
+		width:100%;
+	}
+
+	.share{
+		display:none;
+	}
+}

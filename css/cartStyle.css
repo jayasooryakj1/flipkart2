@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+body{
+    background-color: rgb(241, 242, 247);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(41, 117, 240);
+}
+
+.headerImg{
+    margin-left: 200px;
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    background-color: white;
+    height: 40px;
+}
+
+.searchBar input{
+    border: none;
+    margin-left: 15px;
+    width: 400px;
+}
+
+.searchBar input:focus{
+    outline: none;
+}
+
+.searchBar img{
+    margin-right: 10px;
+}
+
+.account{
+    margin-left: 400px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    color: white;
+}
+
+.mainBody{
+    display:flex;
+    justify-content: center;
+}
+
+.deliver{
+    background-color: white;
+    padding: 10px;
+    width: 850px;   
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delBold{
+    font-weight: bold;
+}
+
+.change{
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(41, 117, 240);
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.cartItem{
+    padding-top: 30px;
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+    padding-left: 20px;
+}
+
+.cartText{
+    margin-left: 30px;
+}
+
+.itemTextSmall{
+    font-size: 13px;
+    margin-top: 5px;
+    color: rgb(135, 135, 150);
+}
+
+.outOfStock{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(255, 96, 96);
+}
+
+.save{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.orderDiv{
+    box-shadow: 0 -5px 10px -5px rgb(178, 170, 170);
+    border-bottom: 1px solid rgb(178, 170, 170);
+    background-color: white;
+    padding: 20px;
+    height: 40px;
+}
+
+.order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(135, 135, 135);
+}
+
+.priceDetails{
+    margin: 20px 0px 0px 20px;
+    background-color: white;
+    width: 350px;
+    height: 310px;
+}
+
+.pdHead{
+    font-weight: bold;
+    padding: 20px 0px 20px 20px;
+    color: rgb(135, 135, 135);
+    border-bottom: 1px solid rgb(240, 241, 241);
+
+}
+
+.pdRow, .pdRowDiscount, .pdRowDelivery, .pdRowTotal{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.green{
+    color: rgb(57, 142, 61);
+}
+
+.pdRowDelivery{
+    padding-bottom: 30px;
+    border-bottom: 1px dashed rgb(191, 192, 192);
+}
+
+.pdRowTotal{
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px dashed rgb(191, 192, 192);
+}
+
+.green2{
+    font-weight: bold;
+    padding: 20px;
+    color: rgb(57, 142, 61);
+    border-bottom: 1px solid rgb(191, 192, 192);
+}
+
+.secure{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.secureText{
+    font-size: 13px;
+    color: rgb(135, 135, 135);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(221, 221, 221);
+    margin-top: 80px;
+    padding: 30px 100px 0px 100px;
+}
+
+.footer1{
+    font-size: 13px;
+    color: rgb(135, 135, 135);
+}
+
+.footer1 a{
+    text-decoration: none;
+    color: rgb(41, 117, 240);
+}
+
+.footer1 a:active{
+    color: rgb(41, 117, 240);
+}
