@@ -1,0 +1,210 @@
+@media screen and (max-width : 1126px) { 
+    .header input{
+        width: 19vw;
+    }
+
+    .topNavItem{
+        font-size: 12px;
+    }
+
+    .topNavItem img{
+        margin-left: 2px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width : 784px) {
+    /* Not displayed in tablet view */
+    .tabletNone{
+        display:none;
+    }
+
+    .tabHeader{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+    }
+
+    .tabHeader2{
+        display: flex;
+        margin-left: 55vw;
+    }
+
+    .tabImg{
+        margin-left: 1.5vw;
+    }
+
+    .tabImg2{
+        margin-left: 2vw;
+    }
+
+    .tabSearch{
+        margin-left: 55vw;
+    }
+
+    .mainDiv{
+        margin:0px;
+        display: unset;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .mainImage{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .tabView{
+        display: unset;
+    }
+
+    .tabMain{
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-top: 20px;
+        background-color: white;
+    }
+
+    .tabGreen{
+        background-color: rgb(231, 248, 236);
+        margin-top: 20px;
+        padding-left: 20px;
+        height: 70px;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    .threeZero{
+        margin-left: 10px;
+    }
+
+    .freeDel{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .delTo{
+        margin-top: 20px;
+    }
+
+    .tabChange{
+        margin-top: 10px;
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        color:  rgb(41, 117, 240);
+        border: 1px solid grey;
+    }
+
+    .return{
+        background-color: white;
+        margin-top: 20px;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+
+    .direction{
+        flex-direction: column;
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .tabOff{
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: white;
+    }
+
+    .tabOff img{
+        margin-right: 20px;
+    }
+
+    .tabCoupBorder{
+        padding-top: 20px;
+        border-top: 1px solid grey;
+    }
+
+    .tabSim{
+        margin-top: 20px;
+        background-color: white;
+        padding: 20px;
+
+    }
+
+    .tabSimImg{
+        width: 70%;
+    }
+
+    .tabSimItem{
+        font-size: 12px;
+    }
+
+    .tabSimImg img{
+        width: 100%;
+    }
+
+    .tabWarr{
+        margin-top: 20px;
+        padding: 20px;
+        background-color: white;
+        font-size: 12px;
+    }
+
+    .tabHighlights{
+        margin-top: 20px;
+        background-color: white;
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .tabHighlights li, .tabAll{
+        margin-top: 10px;
+    }
+
+    .radhee{
+        background-color: white;
+        margin-top: 20px;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .radheeText{
+        margin-left: 10px;
+    }
+
+    .moreLike{
+        background-color: white;
+        padding: 20px;
+    }
+
+    .moreItem{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    
+    .moreImg{
+        width: 100%;
+    }
+
+    .moreImg img{
+        width: 100%;
+    }
+
+    .five{
+        margin-left: 10px;
+    }
+
+    .two{
+        margin-left: 10px;
+    }
+
+}
